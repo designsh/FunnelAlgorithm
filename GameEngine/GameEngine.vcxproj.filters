@@ -1,0 +1,688 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Precom">
+      <UniqueIdentifier>{9146e208-b40e-42f9-82ff-a88e07acb456}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RenderingPipeLine">
+      <UniqueIdentifier>{eb13eb89-be63-4e00-a889-728dc0e3dfd5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RenderingPipeLine\Shader">
+      <UniqueIdentifier>{a346d989-05ec-46ed-900b-34eef56810a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{fa4b97cb-7bcf-4645-830a-6809cdcc5515}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\99Manager">
+      <UniqueIdentifier>{b11e4bb5-b419-4203-8b25-36b88e679943}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\02Image">
+      <UniqueIdentifier>{2b2d0fc2-fd87-4646-a498-9d592b5dd430}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\01Shader">
+      <UniqueIdentifier>{fc50d58b-f695-40e8-a13c-0d2c8af1e8bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\00Buffer">
+      <UniqueIdentifier>{0ebde810-706b-4c89-8938-724e46dd1d0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\03Setting">
+      <UniqueIdentifier>{2c1ce062-7ff8-41ec-8521-84f90f5cc2a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RenderingPipeLine\Device">
+      <UniqueIdentifier>{864e4601-aa46-4b78-aff5-53c6845348ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\01Shader\ShaderResources">
+      <UniqueIdentifier>{60e4344d-c0fb-41d3-80cf-b2e81f971a6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object">
+      <UniqueIdentifier>{d8bf2aef-6c5d-42b8-b0e1-4c87658a7761}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Component">
+      <UniqueIdentifier>{6fbabd59-58ff-46d8-81fb-962d8eeb1ac8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Component\Transform">
+      <UniqueIdentifier>{c2b3387d-aae4-46dc-8bca-04e0dfc36d56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Component\Camera">
+      <UniqueIdentifier>{ac8b346f-88f3-4590-b4f4-967975a716c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Control">
+      <UniqueIdentifier>{651e8ca6-9588-4b7b-9c94-3d0eb2f52745}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\EngineActor">
+      <UniqueIdentifier>{cedee5b8-6818-465e-99ec-66b1b1a2ad9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lib">
+      <UniqueIdentifier>{2866442e-9588-498b-b790-d7599eed826c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lib\DirectXTex">
+      <UniqueIdentifier>{3a694c90-5c45-4628-b3dc-9132b3d1c5b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lib\DirectXTex\Release">
+      <UniqueIdentifier>{7aee6d98-19c0-4f2c-8a10-2aa4e1f708bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lib\DirectXTex\Debug">
+      <UniqueIdentifier>{193ffe0b-64bf-4c16-ae95-8d93c820015a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\99Manager\ResMinimal">
+      <UniqueIdentifier>{ec267598-7fd7-4284-8db8-501a2d034fef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Component\Collision">
+      <UniqueIdentifier>{ccf5bfdb-cb2e-427e-998b-e72386d881ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Global">
+      <UniqueIdentifier>{8337512c-fc63-42fd-9567-fb4f8891a98f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Debug">
+      <UniqueIdentifier>{2aacbe61-bd16-4841-b1d6-de38598dcac8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Contents">
+      <UniqueIdentifier>{73ba42bb-b048-4e84-b1dd-29d8e3172d22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lib\FW1Font">
+      <UniqueIdentifier>{0c80c47d-8799-439f-9195-86c9ca35252c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Imgui">
+      <UniqueIdentifier>{87bbd737-da67-4980-8363-b527afd74831}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Imgui\Code">
+      <UniqueIdentifier>{a71abea1-7461-4f8e-9ddb-c41656850331}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Imgui\EngineWindow">
+      <UniqueIdentifier>{981fe642-306c-4b00-8f7f-cfa988f2e5bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\PostProcess">
+      <UniqueIdentifier>{dc2cde0a-5cc0-4235-b444-0a2b00d0f17f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\PostProcess\EngineEffect">
+      <UniqueIdentifier>{2d63233e-75a8-442c-bdde-41d8d1d2287a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Component\Render">
+      <UniqueIdentifier>{1af1c7d5-451d-40d3-a014-0b672f4a580f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Component\Render\Sub">
+      <UniqueIdentifier>{0771a093-80e1-40de-8e54-069db34a9478}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\04FBX">
+      <UniqueIdentifier>{22affe1d-94a2-4afb-b559-d0b5f922d09b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lib\FBX">
+      <UniqueIdentifier>{bc7d1c8a-c95e-44fd-8a5e-ffe37333f236}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lib\FBX\Debug">
+      <UniqueIdentifier>{fb641ed2-0aa3-4cde-955d-4bae0755559c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lib\FBX\Release">
+      <UniqueIdentifier>{8309ef28-a205-4fbd-827e-2babac33bc45}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="PreCompile.h">
+      <Filter>Precom</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngineCore.h" />
+    <ClInclude Include="GameEngineWindow.h" />
+    <ClInclude Include="GameEngineRenderingPipeLine.h">
+      <Filter>RenderingPipeLine</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngineVertexShader.h">
+      <Filter>Resources\01Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngineIndexBuffer.h">
+      <Filter>Resources\00Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngineVertexBuffer.h">
+      <Filter>Resources\00Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngineVertexBufferManager.h">
+      <Filter>Resources\99Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngineTexture.h">
+      <Filter>Resources\02Image</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngineVertexShaderManager.h">
+      <Filter>Resources\99Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngineIndexBufferManager.h">
+      <Filter>Resources\99Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngineTextureManager.h">
+      <Filter>Resources\99Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngineRasterizerManager.h">
+      <Filter>Resources\99Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngineDevice.h">
+      <Filter>RenderingPipeLine\Device</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngineRenderTarget.h">
+      <Filter>Resources\02Image</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngineRenderTargetManager.h">
+      <Filter>Resources\99Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngineRenderingPipeLineManager.h">
+      <Filter>Resources\99Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngineRasterizer.h">
+      <Filter>Resources\03Setting</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEnginePixelShader.h">
+      <Filter>Resources\01Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngineShader.h">
+      <Filter>Resources\01Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEnginePixelShaderManager.h">
+      <Filter>Resources\99Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngineConstantBuffer.h">
+      <Filter>Resources\01Shader\ShaderResources</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngineConstantBufferManager.h">
+      <Filter>Resources\99Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngineRenderingSettingData.h">
+      <Filter>RenderingPipeLine</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngineShaderResHelper.h">
+      <Filter>RenderingPipeLine</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngineLevel.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngineActor.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngineComponent.h">
+      <Filter>Object\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngineTransformComponent.h">
+      <Filter>Object\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraComponent.h">
+      <Filter>Object\Component\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraActor.h">
+      <Filter>Object\EngineActor</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngineInput.h">
+      <Filter>Control</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngineUIRenderer.h">
+      <Filter>Object\Component\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngineImageRenderer.h">
+      <Filter>Object\Component\Render\Sub</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngineSampler.h">
+      <Filter>Resources\02Image</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngineSamplerManager.h">
+      <Filter>Resources\99Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngineResourcesManager.h">
+      <Filter>Resources\99Manager\ResMinimal</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngineBlend.h">
+      <Filter>Resources\02Image</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngineBlendManager.h">
+      <Filter>Resources\99Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngineFolderTextureManager.h">
+      <Filter>Resources\99Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngineFolderTexture.h">
+      <Filter>Resources\02Image</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngineCollision.h">
+      <Filter>Object\Component\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Enums.h">
+      <Filter>Global</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngineDebugRenderData.h">
+      <Filter>Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineVertex.h">
+      <Filter>Global</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngineDepthStencil.h">
+      <Filter>Resources\03Setting</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngineDepthStencilManager.h">
+      <Filter>Resources\99Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngineDepthBuffer.h">
+      <Filter>Resources\02Image</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngineDepthBufferManager.h">
+      <Filter>Resources\99Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="MouseActor.h">
+      <Filter>Object\EngineActor</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngineFSM.h">
+      <Filter>Object\Contents</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngineFont.h">
+      <Filter>Resources\02Image</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngineFontManager.h">
+      <Filter>Resources\99Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui.h">
+      <Filter>Imgui\Code</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_internal.h">
+      <Filter>Imgui\Code</Filter>
+    </ClInclude>
+    <ClInclude Include="imstb_rectpack.h">
+      <Filter>Imgui\Code</Filter>
+    </ClInclude>
+    <ClInclude Include="imstb_textedit.h">
+      <Filter>Imgui\Code</Filter>
+    </ClInclude>
+    <ClInclude Include="imstb_truetype.h">
+      <Filter>Imgui\Code</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngineGUI.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imconfig.h">
+      <Filter>Imgui\Code</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_impl_dx11.h">
+      <Filter>Imgui\Code</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_impl_win32.h">
+      <Filter>Imgui\Code</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngineImageShotWindow.h">
+      <Filter>Imgui\EngineWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngineRenderWindow.h">
+      <Filter>Imgui\EngineWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngineLevelControlWindow.h">
+      <Filter>Imgui\EngineWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEnginePostProcessRender.h">
+      <Filter>Object\PostProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="PostFade.h">
+      <Filter>Object\PostProcess\EngineEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="PostBlur.h">
+      <Filter>Object\PostProcess\EngineEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="SmallPostBlur.h">
+      <Filter>Object\PostProcess\EngineEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="SKySphereActor.h">
+      <Filter>Object\EngineActor</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngineLightComponent.h">
+      <Filter>Object\Component\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="LightActor.h">
+      <Filter>Object\EngineActor</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngineFBX.h">
+      <Filter>Resources\04FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngineFBXMesh.h">
+      <Filter>Resources\04FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngineFBXMeshManager.h">
+      <Filter>Resources\99Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngineFBXWindow.h">
+      <Filter>Imgui\EngineWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngineFBXRenderer.h">
+      <Filter>Object\Component\Render\Sub</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngineRendererBase.h">
+      <Filter>Object\Component\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngineRenderer.h">
+      <Filter>Object\Component\Render\Sub</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngineFBXAnimation.h">
+      <Filter>Resources\04FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngineFBXAnimationManager.h">
+      <Filter>Resources\99Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngineStructuredBuffer.h">
+      <Filter>Resources\00Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngineStructuredBufferManager.h">
+      <Filter>Resources\99Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngineTransform.h">
+      <Filter>Object\Component\Transform</Filter>
+    </ClInclude>
+    <ClInclude Include="DeferredCalLightEffect.h">
+      <Filter>Object\PostProcess\EngineEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="DeferredMerge.h">
+      <Filter>Object\PostProcess\EngineEffect</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="PreCompile.cpp">
+      <Filter>Precom</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngineCore.cpp" />
+    <ClCompile Include="GameEngineWindow.cpp" />
+    <ClCompile Include="GameEngineRenderingPipeLine.cpp">
+      <Filter>RenderingPipeLine</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngineVertexShader.cpp">
+      <Filter>Resources\01Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngineIndexBuffer.cpp">
+      <Filter>Resources\00Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngineVertexBuffer.cpp">
+      <Filter>Resources\00Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngineVertexBufferManager.cpp">
+      <Filter>Resources\99Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngineTexture.cpp">
+      <Filter>Resources\02Image</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngineVertexShaderManager.cpp">
+      <Filter>Resources\99Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngineIndexBufferManager.cpp">
+      <Filter>Resources\99Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngineTextureManager.cpp">
+      <Filter>Resources\99Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngineRasterizerManager.cpp">
+      <Filter>Resources\99Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngineDevice.cpp">
+      <Filter>RenderingPipeLine\Device</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngineRenderTarget.cpp">
+      <Filter>Resources\02Image</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngineRenderTargetManager.cpp">
+      <Filter>Resources\99Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngineRenderingPipeLineManager.cpp">
+      <Filter>Resources\99Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngineRasterizer.cpp">
+      <Filter>Resources\03Setting</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEnginePixelShader.cpp">
+      <Filter>Resources\01Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngineShader.cpp">
+      <Filter>Resources\01Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEnginePixelShaderManager.cpp">
+      <Filter>Resources\99Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngineConstantBuffer.cpp">
+      <Filter>Resources\01Shader\ShaderResources</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngineConstantBufferManager.cpp">
+      <Filter>Resources\99Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngineRenderingSettingData.cpp">
+      <Filter>RenderingPipeLine</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngineShaderResHelper.cpp">
+      <Filter>RenderingPipeLine</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngineLevel.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngineActor.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngineTransform.cpp">
+      <Filter>Object\Component\Transform</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngineComponent.cpp">
+      <Filter>Object\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngineTransformComponent.cpp">
+      <Filter>Object\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraComponent.cpp">
+      <Filter>Object\Component\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraActor.cpp">
+      <Filter>Object\EngineActor</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngineInput.cpp">
+      <Filter>Control</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngineUIRenderer.cpp">
+      <Filter>Object\Component\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngineImageRenderer.cpp">
+      <Filter>Object\Component\Render\Sub</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngineSampler.cpp">
+      <Filter>Resources\02Image</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngineSamplerManager.cpp">
+      <Filter>Resources\99Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngineBlend.cpp">
+      <Filter>Resources\02Image</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngineBlendManager.cpp">
+      <Filter>Resources\99Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngineFolderTextureManager.cpp">
+      <Filter>Resources\99Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngineFolderTexture.cpp">
+      <Filter>Resources\02Image</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngineCollision.cpp">
+      <Filter>Object\Component\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngineDebugRenderData.cpp">
+      <Filter>Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngineCore_Resources.cpp" />
+    <ClCompile Include="GameEngineDepthStencil.cpp">
+      <Filter>Resources\03Setting</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngineDepthStencilManager.cpp">
+      <Filter>Resources\99Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngineDepthBuffer.cpp">
+      <Filter>Resources\02Image</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngineDepthBufferManager.cpp">
+      <Filter>Resources\99Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="MouseActor.cpp">
+      <Filter>Object\EngineActor</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngineFSM.cpp">
+      <Filter>Object\Contents</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngineFont.cpp">
+      <Filter>Resources\02Image</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngineFontManager.cpp">
+      <Filter>Resources\99Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui.cpp">
+      <Filter>Imgui\Code</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_draw.cpp">
+      <Filter>Imgui\Code</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_tables.cpp">
+      <Filter>Imgui\Code</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_widgets.cpp">
+      <Filter>Imgui\Code</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngineGUI.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_impl_dx11.cpp">
+      <Filter>Imgui\Code</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_impl_win32.cpp">
+      <Filter>Imgui\Code</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngineImageShotWindow.cpp">
+      <Filter>Imgui\EngineWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngineRenderWindow.cpp">
+      <Filter>Imgui\EngineWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngineLevelControlWindow.cpp">
+      <Filter>Imgui\EngineWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEnginePostProcessRender.cpp">
+      <Filter>Object\PostProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="PostFade.cpp">
+      <Filter>Object\PostProcess\EngineEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="PostBlur.cpp">
+      <Filter>Object\PostProcess\EngineEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="SmallPostBlur.cpp">
+      <Filter>Object\PostProcess\EngineEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="SKySphereActor.cpp">
+      <Filter>Object\EngineActor</Filter>
+    </ClCompile>
+    <ClCompile Include="EngineVertex.cpp">
+      <Filter>Global</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngineLightComponent.cpp">
+      <Filter>Object\Component\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="LightActor.cpp">
+      <Filter>Object\EngineActor</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngineFBX.cpp">
+      <Filter>Resources\04FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngineFBXMesh.cpp">
+      <Filter>Resources\04FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngineFBXMeshManager.cpp">
+      <Filter>Resources\99Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngineFBXWindow.cpp">
+      <Filter>Imgui\EngineWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngineFBXRenderer.cpp">
+      <Filter>Object\Component\Render\Sub</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngineRendererBase.cpp">
+      <Filter>Object\Component\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngineRenderer.cpp">
+      <Filter>Object\Component\Render\Sub</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngineFBXAnimation.cpp">
+      <Filter>Resources\04FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngineFBXAnimationManager.cpp">
+      <Filter>Resources\99Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngineStructuredBuffer.cpp">
+      <Filter>Resources\00Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngineStructuredBufferManager.cpp">
+      <Filter>Resources\99Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="DeferredCalLightEffect.cpp">
+      <Filter>Object\PostProcess\EngineEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="DeferredMerge.cpp">
+      <Filter>Object\PostProcess\EngineEffect</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CopyFileToFolders Include="..\ThirdParty\x64\Release\DirectXTex\DirectXTex.lib">
+      <Filter>Lib\DirectXTex\Release</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\ThirdParty\x64\Debug\DirectXTex\DirectXTex.lib">
+      <Filter>Lib\DirectXTex\Debug</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\ThirdParty\x64\Release\FW1Font\FW1FontWrapper.dll">
+      <Filter>Lib\FW1Font</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\ThirdParty\x64\Release\FW1Font\FW1FontWrapper.lib">
+      <Filter>Lib\FW1Font</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\ThirdParty\x64\Debug\FBX\zlib-mt.lib">
+      <Filter>Lib\FBX\Debug</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\ThirdParty\x64\Debug\FBX\libfbxsdk.dll">
+      <Filter>Lib\FBX\Debug</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\ThirdParty\x64\Debug\FBX\libfbxsdk.lib">
+      <Filter>Lib\FBX\Debug</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\ThirdParty\x64\Debug\FBX\libfbxsdk.pdb">
+      <Filter>Lib\FBX\Debug</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\ThirdParty\x64\Debug\FBX\libfbxsdk-md.lib">
+      <Filter>Lib\FBX\Debug</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\ThirdParty\x64\Debug\FBX\libfbxsdk-mt.lib">
+      <Filter>Lib\FBX\Debug</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\ThirdParty\x64\Debug\FBX\libxml2-md.lib">
+      <Filter>Lib\FBX\Debug</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\ThirdParty\x64\Debug\FBX\libxml2-mt.lib">
+      <Filter>Lib\FBX\Debug</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\ThirdParty\x64\Debug\FBX\zlib-md.lib">
+      <Filter>Lib\FBX\Debug</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\ThirdParty\x64\Release\FBX\libfbxsdk.dll">
+      <Filter>Lib\FBX\Release</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\ThirdParty\x64\Debug\DirectXTex\DirectXTex.pdb">
+      <Filter>Lib\DirectXTex\Debug</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\ThirdParty\x64\Release\FBX\libfbxsdk.lib">
+      <Filter>Lib\FBX\Release</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\ThirdParty\x64\Release\FBX\libfbxsdk-md.lib">
+      <Filter>Lib\FBX\Release</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\ThirdParty\x64\Release\FBX\libfbxsdk-mt.lib">
+      <Filter>Lib\FBX\Release</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\ThirdParty\x64\Release\FBX\libxml2-md.lib">
+      <Filter>Lib\FBX\Release</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\ThirdParty\x64\Release\FBX\libxml2-mt.lib">
+      <Filter>Lib\FBX\Release</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\ThirdParty\x64\Release\FBX\zlib-md.lib">
+      <Filter>Lib\FBX\Release</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\ThirdParty\x64\Release\FBX\zlib-mt.lib">
+      <Filter>Lib\FBX\Release</Filter>
+    </CopyFileToFolders>
+  </ItemGroup>
+</Project>

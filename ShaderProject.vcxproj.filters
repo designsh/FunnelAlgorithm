@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{1d67d808-af96-46d3-9de1-94719960c0ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="User">
+      <UniqueIdentifier>{e1b02f76-f02a-49ba-a95c-243bbf00577f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="EngineResources\Shader\Color.fx">
+      <Filter>Engine</Filter>
+    </FxCompile>
+    <FxCompile Include="EngineResources\Shader\Texture.fx">
+      <Filter>Engine</Filter>
+    </FxCompile>
+    <FxCompile Include="EngineResources\Shader\CbufferHeader.fx">
+      <Filter>Engine</Filter>
+    </FxCompile>
+    <FxCompile Include="EngineResources\Shader\TargetMerge.fx">
+      <Filter>Engine</Filter>
+    </FxCompile>
+    <FxCompile Include="EngineResources\Shader\Fade.fx">
+      <Filter>Engine</Filter>
+    </FxCompile>
+    <FxCompile Include="EngineResources\Shader\Blur.fx">
+      <Filter>Engine</Filter>
+    </FxCompile>
+    <FxCompile Include="EngineResources\Shader\TextureAtlas.fx">
+      <Filter>Engine</Filter>
+    </FxCompile>
+    <FxCompile Include="EngineResources\Shader\LightHeader.fx">
+      <Filter>Engine</Filter>
+    </FxCompile>
+    <FxCompile Include="EngineResources\Shader\AniHeader.fx">
+      <Filter>Engine</Filter>
+    </FxCompile>
+    <FxCompile Include="EngineResources\Shader\ColorAni.fx">
+      <Filter>Engine</Filter>
+    </FxCompile>
+    <FxCompile Include="EngineResources\Shader\TextureAni.fx">
+      <Filter>Engine</Filter>
+    </FxCompile>
+    <FxCompile Include="EngineResources\Shader\TestColor.fx">
+      <Filter>Engine</Filter>
+    </FxCompile>
+    <FxCompile Include="EngineResources\Shader\DeferredColor.fx">
+      <Filter>Engine</Filter>
+    </FxCompile>
+    <FxCompile Include="EngineResources\Shader\TextureLight.fx">
+      <Filter>Engine</Filter>
+    </FxCompile>
+    <FxCompile Include="EngineResources\Shader\TextureDeferredLight.fx">
+      <Filter>Engine</Filter>
+    </FxCompile>
+    <FxCompile Include="EngineResources\Shader\DeferredMerge.fx">
+      <Filter>Engine</Filter>
+    </FxCompile>
+    <FxCompile Include="EngineResources\Shader\DeferredCalLight.fx">
+      <Filter>Engine</Filter>
+    </FxCompile>
+    <FxCompile Include="EngineResources\Shader\TextureDeferredLightAni.fx">
+      <Filter>Engine</Filter>
+    </FxCompile>
+    <FxCompile Include="EngineResources\Shader\DeferredNavTile.fx">
+      <Filter>Engine</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>

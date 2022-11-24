@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Appmain.cpp" />
+    <ClCompile Include="PreCompile.cpp">
+      <Filter>00.GameApp\00.Precom</Filter>
+    </ClCompile>
+    <ClCompile Include="UserGame_Resources_Shader.cpp">
+      <Filter>00.GameApp\01.Core\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="UserGame.cpp">
+      <Filter>00.GameApp\01.Core</Filter>
+    </ClCompile>
+    <ClCompile Include="UserGame_Resources.cpp">
+      <Filter>00.GameApp\01.Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GameMouse.cpp">
+      <Filter>01.GameObject\02.GlobalActor</Filter>
+    </ClCompile>
+    <ClCompile Include="TestActor.cpp">
+      <Filter>01.GameObject\03.Level\00.FunnelTestLevel\Actor\00.TestActor</Filter>
+    </ClCompile>
+    <ClCompile Include="Ray.cpp">
+      <Filter>01.GameObject\03.Level\00.FunnelTestLevel\Actor\01.Ray</Filter>
+    </ClCompile>
+    <ClCompile Include="Yuki.cpp">
+      <Filter>01.GameObject\03.Level\00.FunnelTestLevel\Actor\02.Player</Filter>
+    </ClCompile>
+    <ClCompile Include="NaviCell.cpp">
+      <Filter>01.GameObject\03.Level\00.FunnelTestLevel\Actor\04.NaviCell</Filter>
+    </ClCompile>
+    <ClCompile Include="PathFinder.cpp">
+      <Filter>01.GameObject\03.Level\00.FunnelTestLevel\Actor\04.NaviCell\00.PathFinder</Filter>
+    </ClCompile>
+    <ClCompile Include="Funnel.cpp">
+      <Filter>01.GameObject\03.Level\00.FunnelTestLevel\Actor\04.NaviCell\01.Funnel</Filter>
+    </ClCompile>
+    <ClCompile Include="Wolf.cpp">
+      <Filter>01.GameObject\03.Level\00.FunnelTestLevel\Actor\03.Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="FunnelTestLevel.cpp">
+      <Filter>01.GameObject\03.Level\00.FunnelTestLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="FloorMap.cpp">
+      <Filter>01.GameObject\03.Level\00.FunnelTestLevel\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="Mouse.cpp">
+      <Filter>01.GameObject\03.Level\00.FunnelTestLevel\Actor</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="00.GameApp">
+      <UniqueIdentifier>{97e149dc-7ede-46de-a3aa-c1dd3bb2785a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.GameApp\00.Precom">
+      <UniqueIdentifier>{0d0b75c7-5726-42b1-aa92-879451e131c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.GameApp\01.Core">
+      <UniqueIdentifier>{e9202fd3-1d82-4b24-95c9-d9783411c25a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.GameApp\01.Core\Resources">
+      <UniqueIdentifier>{097aabc9-6df0-4d53-a9ed-77681a8002e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.GameApp\01.Core\CustomVertex">
+      <UniqueIdentifier>{16842167-2534-42db-8026-796a267ad72b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject">
+      <UniqueIdentifier>{7b108a2e-bcd5-4fed-b937-95af2ec8b5b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\00.Constant">
+      <UniqueIdentifier>{fe7eca9f-4c96-41c7-9a5e-95d402951209}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\01.BaseActor">
+      <UniqueIdentifier>{da4abc2b-3a0e-4baf-9045-7c4fd649a8b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\02.GlobalActor">
+      <UniqueIdentifier>{5b1798ae-0845-4fbe-8a16-76e0e38dd1a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\03.Level">
+      <UniqueIdentifier>{e6998438-49d5-445a-83ae-2e78e52a45df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\03.Level\00.FunnelTestLevel">
+      <UniqueIdentifier>{22ad2503-b7a3-4f92-9ebe-d43906e98e7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\03.Level\00.FunnelTestLevel\Actor">
+      <UniqueIdentifier>{1df05292-8377-40d0-9ab5-d9fa6fbab32a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\03.Level\00.FunnelTestLevel\Actor\00.TestActor">
+      <UniqueIdentifier>{f365f1f5-c668-49ad-92dc-2fdaa2d8ad1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\03.Level\00.FunnelTestLevel\Actor\01.Ray">
+      <UniqueIdentifier>{d5c516f0-c910-4ec7-ba22-897b4c08b5f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\03.Level\00.FunnelTestLevel\Actor\02.Player">
+      <UniqueIdentifier>{88dd0ad6-4776-4dc2-accf-d582c66c26bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\03.Level\00.FunnelTestLevel\Actor\03.Monster">
+      <UniqueIdentifier>{9237cd3c-80d1-4df0-be1b-c7fdc61fda0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\03.Level\00.FunnelTestLevel\Actor\04.NaviCell">
+      <UniqueIdentifier>{e2601656-afd5-4123-9cfd-62db29b76bb5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\03.Level\00.FunnelTestLevel\Actor\04.NaviCell\00.PathFinder">
+      <UniqueIdentifier>{7a2868fa-2556-4890-b00e-0e75065ccc37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\03.Level\00.FunnelTestLevel\Actor\04.NaviCell\01.Funnel">
+      <UniqueIdentifier>{9269cfad-5c5a-46f7-80d8-a000c1eeb1c9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="PreCompile.h">
+      <Filter>00.GameApp\00.Precom</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomVertex.h">
+      <Filter>00.GameApp\01.Core\CustomVertex</Filter>
+    </ClInclude>
+    <ClInclude Include="UserGame_Resources_Shader.h">
+      <Filter>00.GameApp\01.Core\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="UserGame.h">
+      <Filter>00.GameApp\01.Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Macro.h">
+      <Filter>01.GameObject\00.Constant</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMouse.h">
+      <Filter>01.GameObject\02.GlobalActor</Filter>
+    </ClInclude>
+    <ClInclude Include="TestActor.h">
+      <Filter>01.GameObject\03.Level\00.FunnelTestLevel\Actor\00.TestActor</Filter>
+    </ClInclude>
+    <ClInclude Include="Ray.h">
+      <Filter>01.GameObject\03.Level\00.FunnelTestLevel\Actor\01.Ray</Filter>
+    </ClInclude>
+    <ClInclude Include="Yuki.h">
+      <Filter>01.GameObject\03.Level\00.FunnelTestLevel\Actor\02.Player</Filter>
+    </ClInclude>
+    <ClInclude Include="NaviCell.h">
+      <Filter>01.GameObject\03.Level\00.FunnelTestLevel\Actor\04.NaviCell</Filter>
+    </ClInclude>
+    <ClInclude Include="eCollisionGroup.h">
+      <Filter>01.GameObject\00.Constant</Filter>
+    </ClInclude>
+    <ClInclude Include="PathFinder.h">
+      <Filter>01.GameObject\03.Level\00.FunnelTestLevel\Actor\04.NaviCell\00.PathFinder</Filter>
+    </ClInclude>
+    <ClInclude Include="Funnel.h">
+      <Filter>01.GameObject\03.Level\00.FunnelTestLevel\Actor\04.NaviCell\01.Funnel</Filter>
+    </ClInclude>
+    <ClInclude Include="Enums.h">
+      <Filter>01.GameObject\00.Constant</Filter>
+    </ClInclude>
+    <ClInclude Include="Wolf.h">
+      <Filter>01.GameObject\03.Level\00.FunnelTestLevel\Actor\03.Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="FunnelTestLevel.h">
+      <Filter>01.GameObject\03.Level\00.FunnelTestLevel</Filter>
+    </ClInclude>
+    <ClInclude Include="FloorMap.h">
+      <Filter>01.GameObject\03.Level\00.FunnelTestLevel\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="Mouse.h">
+      <Filter>01.GameObject\03.Level\00.FunnelTestLevel\Actor</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
